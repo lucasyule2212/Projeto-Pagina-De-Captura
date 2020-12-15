@@ -4,6 +4,9 @@ body{
     height: 100%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+.icon1{
+background-color: #F7E7DE
+}
 .headTitle{   
     font-size: 140%;
     margin: 0;   

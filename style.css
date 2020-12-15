@@ -129,6 +129,7 @@ a{
 }
 
 
+
 @media screen and (max-width:820px){
 .headTitle{
     font-size: 110%;
@@ -153,4 +154,19 @@ a{
     padding-right: 15%;
     min-width:fit-content
 }
+
 }
+
+@media(min-width:821px){
+    .footerPic2{
+        min-width: 20%;
+    }
+}
+
+@media(max-width:420px){
+    .footerPic2{
+        display: none;
+    }
+}
+
+

@@ -4,9 +4,6 @@ body{
     height: 100%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-.icon1{
-background-color: #F7E7DE;
-}
 .headTitle{   
     font-size: 140%;
     margin: 0;   
@@ -50,7 +47,6 @@ select{
     background-repeat: no-repeat;
     background-position: calc(100% - 10px) center;
 }
-
 input[type="submit"]{
 font-weight: bold;
 
@@ -59,6 +55,8 @@ background-color:  #F7E7DE;
 .contato{
     color: #F7E7DE;
     text-decoration: underline;
+    margin-bottom: 5px;
+    margin-top: 2px;
 }
 .foot{
     padding: 1%;
@@ -70,7 +68,9 @@ background-color:  #F7E7DE;
     display: inline-block;
     margin-left: 2%;
     text-align: justify;
+    width: 20%;
     max-width: 40%;
+    
     color: #F7E7DE;
     font-size: 1.1rem;
 }
@@ -87,16 +87,48 @@ background-color:  #F7E7DE;
 .footerPic2{   
     background-color: #F7E7DE;
     width: 13%;
+    margin-right: 5px;
 }
 
 a{
     color: #F7E7DE;
     text-decoration: none;
 }
-a:hover{
-    background-color: #F7E7DE;
-    color: black;
+.buttom1:nth-child(1):hover{
+    border-radius: 50px;
+    box-shadow: 0px 0px 0px 10px #F7E7DE;
 }
+.buttom1:nth-child(2):hover{
+    border-radius: 50px;
+    box-shadow: 0px 0px 0px 10px #f7e7de8a;
+}
+.buttom1:nth-child(3):hover{
+    border-radius: 50px;
+    box-shadow: 0px 0px 0px 10px #f7e7de4d;
+}
+.buttom1:nth-child(4):hover{
+    border-radius: 50px;
+    box-shadow: 0px 0px 0px 10px #f7e7de0c;
+}
+.buttom{
+  position: absolute;
+  text-align: center;
+
+}
+.bCont{
+    position: relative;
+    top: 50%;
+    transform: translate(0,-60%);
+    display: inline-block;
+}
+.buttom1{
+    margin-right: 5px;
+    cursor: pointer;
+    padding: 2px;
+    transition: all .4s; 
+}
+
+
 @media screen and (max-width:820px){
 .headTitle{
     font-size: 110%;
